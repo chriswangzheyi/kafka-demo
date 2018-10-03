@@ -12,7 +12,7 @@ import org.apache.kafka.common.serialization.StringSerializer;
 public class SendMessageProducer {
 	
 	
-	public static final String SERVERS = "54.249.79.156:9092";
+	public static final String SERVERS = "54.249.79.156:9092,54.249.79.156:9093,54.249.79.156:9094"; //多台服务器用逗号隔开
 	public static final String TOPIC = "wzy-topic";
 	
 	
